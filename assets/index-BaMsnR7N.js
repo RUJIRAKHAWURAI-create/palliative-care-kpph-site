@@ -70,7 +70,8 @@ ${w}`}class le extends Error{constructor({message:e,code:n,cause:r,name:i}){var 
 💰 [แนวทางบันทึกเบิกจ่าย สปสช. สำหรับ รพ.สต.]
 หากลงเยี่ยมบ้านแล้ว รบกวนบันทึกข้อมูล Hospcc เก็บผลงานในช่อง community service และคีย์เบิกจ่ายผ่าน E-Claim (เฉพาะสิทธิ์บัตรทอง) โดยระบุรหัส ICD-10 รวม 3 รหัส ดังนี้:
 1. `+(t||"ไม่ระบุ")+` (Principle Dx)
-2. Z51.5 (Secondary Dx / Palliative Care)`:""}function Qx(t){const e=["กายภาพ","การใช้ยา","เฝ้าระวังแผลกดทับ"];return`🚨 [รับเคสใหม่] Homebase Palliative Care
+2. Z51.5 (Secondary Dx / Palliative Care)
+3. Z71.8 (Family Meeting / ACP)`:""}function Qx(t){const e=["กายภาพ","การใช้ยา","เฝ้าระวังแผลกดทับ"];return`🚨 [รับเคสใหม่] Homebase Palliative Care
 • ชื่อ: `+t.name+"  (อายุ "+t.age+` ปี)
 • รพ.สต.: `+t.station+`
 • การวินิจฉัย: `+t.dx+`
